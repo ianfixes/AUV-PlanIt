@@ -1,0 +1,383 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+
+  <style>
+html {
+background-color: white;
+color: black;
+font-family: "Lucida Grande", Verdana, Lucida, Helvetica, Arial, sans-serif;
+font-size: 0.9em;
+line-height: 1.5em;
+}
+body {
+margin-left: 1em;
+margin-right: 1em;
+margin-top: 0;
+padding: 0;
+}
+#header {
+margin: 0;
+padding: 0;
+}
+#mastwrap {
+margin-left: -3em;
+margin-right: -3em;
+background: url('img/u-header.png') bottom left repeat-x #DBBA75;
+}
+#masthead
+{
+position:relative;
+background: url('img/headerlogo.png') bottom left no-repeat transparent;
+border-style: solid;
+border-width: 0;
+color: #000;
+height: 90px;
+}
+ul {
+margin-left: 5px;
+}
+.orderedlist {
+margin-left: 10px;
+}
+.titlepage {
+padding-right: 1em;
+}
+div.toc dt {
+margin-top: 2px;
+}
+div.toc {
+padding-left: 1em;
+padding-right: 1em;
+}
+div.toc dt :visited {
+color: black; /* Ubuntu visited link color */
+}
+div.qandaset dt :visited {
+color: black; /* Ubuntu visited link color */
+}
+:link {
+color: #6d4c07; /* dark brown */
+}
+:visited {
+color: #6d4c07; /* dark brown */
+}
+dl {
+margin-top: 0em;
+margin-bottom: 0.5em;
+}
+dt {
+margin-top: 1em;
+}
+div.qandaset {
+margin-left: 1em;
+}
+.guimenu, .guimenuitem, .guisubmenu {
+font-style: italic;
+color: #6d4c07; /* dark brown */
+}
+.guilabel, .guibutton {
+}
+.question {
+font-weight: bold;
+}
+/* accelerator keys in menus */
+.accel {
+text-decoration: underline;
+}
+h1
+{
+margin: 1.5em 0 0 0;
+font-weight: bold;
+font-size: 2em;
+color: #6d4c07; /* ubuntu dark brown */
+line-height: 1.2em;
+} h2, h3, h4, h5, h6
+{
+font-weight: normal;
+color: #6d4c07; /* ubuntu dark brown */
+line-height: 1.2em;
+} h2
+{
+font-size: 1.8em;
+border-bottom: 2px solid #6d4c07;
+}
+h3 {
+font-size: 1.5em;
+}
+h4 {
+font-size: 1.2em;
+}
+h5, h6 {font-size: 1em;}
+.screen, .programlisting {
+background-color: #f0eee6; /* light salmon */
+border: 1pt solid #C1B496; /* dark tan */
+padding: 5px;
+}
+.revhistory { font-size: 0.9em; }
+#sisternav {
+position:absolute;
+bottom:0px;
+right:0px;
+}
+#sisternav ul {
+display:inline;
+margin:0;
+padding:10px 10px 0 1px;
+list-style:none;
+}
+#sisternav li {
+display:inline;
+float:left;
+background:url(img/tab_off_ns1.png) no-repeat left top;
+margin:0;
+padding:0 0 0 5px;
+}
+#sisternav a {
+float:left;
+font-size:0.8em;
+display:block;
+background:url(img/tab_off_ns2.png) no-repeat right top;
+padding:8px 15px 3px 8px;
+text-decoration:none;
+font-weight: bold;
+}
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+#sisternav a {float:none;}
+/* End IE5-Mac hack */
+#sisternav li:hover, #sisternav li:hover a {
+background-position:0% -163px;
+}
+#sisternav li:hover a {
+background-position:100% -163px;
+}
+#sisternav #current {
+background:url(img/tab_on_ns1.png) no-repeat left top; }
+#sisternav #current a {
+background:url(img/tab_on_ns2.png) no-repeat right top;
+padding-bottom:4px;
+}
+#sisternav a , #sisternav #current a { color: #444; }
+#sisternav #current a:hover, #sisternav li a:hover { color: black;}
+  </style>
+  <title></title>
+
+
+</head>
+<body>
+
+<div xmlns="" id="mastwrap">
+<div id="masthead"><big><big><big><big><br>
+
+<br>
+
+&nbsp; &nbsp; MYBIC AJAX/PHP DOCUMENTATION</big></big></big></big></div>
+
+</div>
+
+<div class="sect1" xml:lang="en" lang="en">
+<div class="toc">
+<p><b>Table of Contents</b>
+</p>
+
+<dl>
+
+  <dt>
+    <span class="chapter"><a href="">1.
+MyBic Basics</a>
+    </span></dt>
+
+  <dd>
+    <dl>
+
+      <dt>
+        <span class="sect1"><a href="#settings">User
+Settings -
+Tweaking the System</a></span></dt>
+    </dl>
+  </dd>
+</dl>
+<br>
+<br>
+<br>
+<br>
+
+</div>
+
+</div>
+
+<div class="titlepage">
+<div>
+<div><a name="settings"></a>
+<h2 class="title" style="clear: both;"><a name="settings">MyBic User
+Settings</a></h2>
+
+</div>
+
+</div>
+
+</div>
+
+<p><a name="settings">MyBic provides many settings
+that will help you take full
+control of your Ajax applications. Creating AJAX applications that are
+ready for desktop use is not an easy chore. You have to consider things
+like the network being down, how to handle JavaScript errors gracefully, etc...
+MyBic aims to give you complete control over all the possible
+situations you may run across where the default configuration just
+doesn't work for you.&nbsp;</a></p>
+
+<a name="settings">Below is a list of each property you
+can modify in MyBic and just what
+it does.
+</a>
+<p></p>
+
+<p></p>
+
+<h2><span style="color: rgb(51, 102, 255);" class="kwa"><a name="settings">ajaxObj</a></span><span class="sym"><a name="settings">.</a></span><span style="color: rgb(0, 102, 0);"><a name="settings">server_url</a></span><a name="settings"> <span class="sym">=</span>
+server_url;</a></h2>
+
+<p><a name="settings">This setting tells what the
+path is to the mybic_server.php
+page on
+your web server. So if your mybic.js is in the same directory as
+mybic_server.php then you can just leave this to the default when you
+create your XMLHTTP object.&nbsp;</a></p>
+
+<pre class="screen"><a name="settings"><font color="BLUE"><font color="RED"><b>var</b></font> ajaxObj <font color="BLUE">=</font> <font color="BLUE">new</font> XMLHTTP<font color="BLUE"><b>(</b></font><font color="PURPLE">"mybic_server.php"</font><font color="BLUE"><b>)</b></font><font color="BLUE"><b>;</b></font></font><br></a></pre>
+
+<p><span class="sym"></span></p>
+
+<h2><span style="color: rgb(51, 102, 255);" class="kwa"><a name="settings">ajaxObj</a></span><span class="sym"><a name="settings">.</a></span><span style="color: rgb(0, 102, 0);"><a name="settings">async</a></span><a name="settings"> <span class="sym">=</span>
+<span style="color: rgb(0, 0, 153); font-weight: bold;" class="kwa">true</span><span class="sym">;</span></a></h2>
+
+<p><span class="sym"><a name="settings">By
+default MyBic sends all AJAX
+messages asynchronously. This means
+that when a request is sent to the server the user can still work their
+way around the web page. Nothing is locked up, the request might even
+come back 20 minutes later if you're launching a big processing script.
+If you change this to: </a></span><span style="color: rgb(51, 102, 255);" class="kwa"><a name="settings">ajaxObj</a></span><span class="sym"><a name="settings">.</a></span><span style="color: rgb(0, 102, 0);"><a name="settings">async</a></span><a name="settings"> <span class="sym">=</span>&nbsp;<span style="color: rgb(0, 0, 153); font-weight: bold;" class="kwa">false</span><span class="sym">; then requests will be fired off synchronously
+which means that no further JavaScript processing will take place until
+that request comes back. Use this for important steps a user must take
+in your application, or an AJAX call that absolutely must complete
+before anything is is done.&nbsp;</span></a></p>
+
+<h2><span style="color: rgb(51, 102, 255);" class="kwa"><a name="settings">ajaxObj</a></span><span class="sym"><a name="settings">.</a></span><span style="color: rgb(0, 102, 0);"><a name="settings">debug</a></span><a name="settings"> <span class="sym">=</span>&nbsp;<span style="color: rgb(0, 0, 153); font-weight: bold;" class="kwa">0</span><span class="sym">;</span></a></h2>
+
+<span class="sym"></span>
+<div class="navfooter"><a name="settings">If
+you're debugging your ajax
+application it can sometimes be a daunting task to debug what might be
+going wrong. Is it the server? Is it your JavaScript code? The first
+thing I'd recommend is using Firefox and installing "FIREBUG" which is
+a JS debugging extension. Don't forget to turn on enable
+XMLHTTPRequests. If you can't use Firefox or you need to debug on a
+closed Kiosk like system, then set your debug to 1 with the ajaxObj. A
+little popover will appear on the screen showing your the
+request/response of your request. Debug has some great features. Read
+more about it here: </a><a href="http://litfuel.net/mybic/index.html?page=errors">http://litfuel.net/mybic/index.html?page=errors</a><br>
+
+<pre class="screen"><font color="BLUE">ajaxObj.<span style="color: rgb(0, 153, 0);">debug</span> = 1<font color="BLUE"><b>;</b></font></font><br></pre>
+
+<br>
+
+<br>
+
+<h2><span style="color: rgb(51, 102, 255);" class="kwa">ajaxObj</span><span class="sym">.</span><span style="color: rgb(0, 102, 0);">throttle</span> <span class="sym">=</span> <span style="color: rgb(0, 0, 153); font-weight: bold;" class="kwa">1</span><span class="sym">;</span></h2>
+
+<span class="sym"></span>
+You'll probably never want to change this option. This setting means
+that MyBic will start a queue of your requests. For example if you fire
+off AJAX request #1. You'll probably want that request to finish before
+firing off request #2. It basically means you can count on your AJAX
+requests getting fired in the proper order as they were requested. <br>
+
+<br>
+
+<h2><span style="color: rgb(51, 102, 255);" class="kwa">ajaxObj</span><span class="sym">.</span><span style="color: rgb(0, 102, 0);">method</span> <span class="sym">=</span> <span style="color: rgb(0, 0, 153); font-weight: bold;" class="kwa">"POST"</span><span class="sym">;</span></h2>
+
+By default MyBic sends requests as "POST". If you wish to define a
+request as a "GET" request you just simply need to set the method
+before the call you wish to make. Since the default is "POST" MyBic
+will reset to "POST" after each AJAX call. So if you want all your
+requests to use "GET" you'll need to do the following before every call
+or only the calls you want to use get:<br>
+
+<br>
+
+<pre class="screen">ajaxObj<font color="BLUE" size="+1"><b>.</b></font>method <font color="BLUE" size="+1">=</font> <font color="PURPLE">"GET"</font><font color="BLUE" size="+1"><b>;</b></font><br>ajaxObj<font color="BLUE" size="+1"><b>.</b></font>call<font color="BLUE" size="+1"><b>(</b></font><font color="PURPLE">"action=helloworld"</font><font color="BLUE" size="+1"><b>,</b></font> callBackFunction<font color="BLUE" size="+1"><b>)</b></font><font color="BLUE" size="+1"><b>;</b></font>
+</pre>
+
+<br>
+
+<h2><span style="color: rgb(51, 102, 255);" class="kwa">ajaxObj</span><span class="sym">.</span><span style="color: rgb(0, 102, 0);">headers</span><span class="sym"></span></h2>
+
+You can also set custom HTTP headers with MyBic. the ajaxObj.headers
+property is an array that will contain all the headers you wish to send
+with your request. By default this is a global setting that will not
+get reset upon every request. So once you set it, they'll be there for
+each request. If you want to send a custom HTTP header you can do the
+following below or visit: <a href="http://litfuel.net/mybic/index.html?page=headers">http://litfuel.net/mybic/index.html?page=headers</a>
+for more information.<br>
+
+<pre class="screen">ajaxObj<font color="BLUE" size="+1"><b>.</b></font>headers<font color="BLUE" size="+1"><b>[</b></font><font color="PURPLE">'jim'</font><font color="BLUE" size="+1"><b>]</b></font> <font color="BLUE" size="+1">=</font> <font color="PURPLE">'TEST'</font><font color="BLUE" size="+1"><b>;</b></font><br>ajaxObj<font color="BLUE" size="+1"><b>.</b></font>headers<font color="BLUE" size="+1"><b>[</b></font><font color="PURPLE">'testGUI'</font><font color="BLUE" size="+1"><b>]</b></font> <font color="BLUE" size="+1">=</font> <font color="PURPLE">'yes'</font><font color="BLUE" size="+1"><b>;</b></font>
+</pre>
+
+<br>
+
+<h2><span style="color: rgb(51, 102, 255);" class="kwa">ajaxObj</span><span class="sym">.</span><span style="color: rgb(0, 102, 0);">format</span> <span class="sym">=</span> <span style="color: rgb(0, 0, 153); font-weight: bold;" class="kwa">"JSON"</span><span class="sym">;</span></h2>
+By default all requests are sent using JSON formatting. This is an
+ideal setting for receiving arrays of data from PHP but not needed if
+you're just sending snippets of HTML back. If you want to just use it
+for text and xml set this to "TEXT". Possible values can be "XML",
+"TEXT", "JSON". This is reset after every call so you'll need to set
+this before each call you wish to change from JSON. JSON is now
+considered to be the preferred method of transmitting data over XML
+because of ease of use, network packet size and speed. <br>
+<pre class="screen">ajaxObj<font color="BLUE" size="+1"><b>.</b></font>format <font color="BLUE" size="+1">=</font> <font color="PURPLE">'TEXT'</font><font color="BLUE" size="+1"><b>;</b></font><br>ajaxObj<font color="BLUE" size="+1"><b>.</b></font>format <font color="BLUE" size="+1">=</font> <font color="PURPLE">'XML'</font><span style="font-family: mon;"><span style="font-weight: bold;">;</span></span></pre>
+<br>
+
+<h2><span style="color: rgb(51, 102, 255);" class="kwa">ajaxObj</span><span class="sym">.</span><span style="color: rgb(0, 102, 0);">abort_timeout</span> <span class="sym">=</span>&nbsp;<span style="color: rgb(0, 0, 153); font-weight: bold;" class="kwa">5000</span><span class="sym">;</span></h2>
+When you send an AJAX request MyBic will wait 5 seconds(5000
+milliseconds) before calling the network down function. This means that
+the server has not responded back to the browser within those 5 seconds
+and we consider the call failed. If you have a server call that you
+know will take longer you can set this number to something higher
+accordingly, in milliseconds. This is a per-call basis as well. This
+will allow you to set some AJAX calls with higher timeouts than others.
+It will reset back to 5 seconds after each call. <br>
+<br>
+<h2><span style="color: rgb(51, 102, 255);" class="kwa">ajaxObj</span><span class="sym">.</span><span style="color: rgb(0, 102, 0);">failed_threshold</span> <span class="sym">=</span> <span style="color: rgb(0, 0, 153); font-weight: bold;" class="kwa">3</span><span class="sym">;</span></h2>
+If the abort_timeout is triggered 3 times in a row all Ajax calls will
+be disabled. This would indicate a major problem with the server or a
+script that has taken too long 3 times in a row. You can raise or lower
+this number depending on your needs. If you want 10 failed calls in a
+row to disable MyBic then just make this setting 10. This is a per-call
+setting so it will reset to 3 after each call. <br>
+<br>
+<h2><span style="color: rgb(51, 102, 255);" class="kwa">ajaxObj</span><span class="sym">.ignoreCall</span><span style="color: rgb(0, 102, 0);"></span> <span class="sym">=</span> <span style="color: rgb(0, 0, 153); font-weight: bold;" class="kwa">0</span><span class="sym">;</span></h2>
+If you have debug on and you have a polling Ajax call that launches
+every second it could clog up your debug pretty quick. If you wish to
+leave a call of the debugger just set this to 1. It will not show up in
+the MyBic debugger any longer. <br>
+<br>
+<h2><span style="color: rgb(51, 102, 255);" class="kwa">ajaxObj</span><span class="sym">.stopRequest</span><span style="color: rgb(0, 102, 0);"></span> <span class="sym">=</span> <span style="color: rgb(0, 0, 153); font-weight: bold;" class="kwa">0</span><span class="sym">;</span></h2>
+There may be occassions that you wish to make an Ajax request then make
+sure no other Ajax requests are sent until your javascript has
+completely finished processing. If you set ajaxObj.stopRequest=1; in
+your call back function, no requests will be sent again until you issue
+<br>
+<br>
+<pre class="screen">ajaxObj<font color="BLUE" size="+1"><b>.</b></font><span style="font-family: mon;"><span style="font-weight: bold;">restart();</span></span><font color="BLUE" size="+1"><b></b></font><br><font color="BLUE" size="+1"><b></b></font>
+</pre>
+<br>
+<br>
+<br>
+<br>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Areas.kml</name>
+	<open>1</open>
+	<Style id="sh_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4cffffff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_noicon100">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_noicon5">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_noicon10">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>4000ffff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4cffffff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="sn_noicon00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_noicon100</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sn_noicon5</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>4000ffff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4cffffff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4cffffff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>Areas</name>
+		<open>1</open>
+		<Folder>
+			<name>Area Labels + Descriptions</name>
+			<Placemark>
+				<name>Stellwagon Bank National Marine Sanctuary</name>
+				<description><![CDATA[Stellwagon Bank National Marine Sanctuary is located 50 miles east of Boston.
+  <ul><li>High diversity of marine life including red hake, sanddollars, and lobsters
+        <li>Deep troughs provide habitat for sea anemones and krill
+<li> acronym: SBNMS
+  </ul>]]></description>
+				<LookAt>
+					<longitude>-70.33111542466928</longitude>
+					<latitude>42.42553928662435</latitude>
+					<altitude>0</altitude>
+					<range>74605.85514137107</range>
+					<tilt>0</tilt>
+					<heading>-0.4121476401419011</heading>
+				</LookAt>
+				<styleUrl>#sn_noicon00</styleUrl>
+				<Point>
+					<coordinates>-70.33111542466928,42.42553928662435,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Elephant Trunk</name>
+				<description><![CDATA[Elephant Trunk is located south of the Hudson Canyon closed area (outlined in red)
+  <ul><li>A low energy high siltation rate
+        <li>Extremely high scallop density
+  </ul>]]></description>
+				<LookAt>
+					<longitude>-73.80244680889854</longitude>
+					<latitude>38.69422634011017</latitude>
+					<altitude>0</altitude>
+					<range>202923.8906231681</range>
+					<tilt>0</tilt>
+					<heading>-1.020344213354426</heading>
+					<altitudeMode>relativeToGround</altitudeMode>
+				</LookAt>
+				<styleUrl>#sn_noicon00</styleUrl>
+				<Point>
+					<coordinates>-74.06354814500175,38.48330004912098,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Georges Bank - Northeast Peak</name>
+				<description><![CDATA[Georges Bank is located 200 miles east of Cape Cod
+  <ul><li>High energy, strong currents
+        <li>Shallow depth, high nutrients
+  </ul>]]></description>
+				<LookAt>
+					<longitude>-67.22931750512934</longitude>
+					<latitude>42.0332644331609</latitude>
+					<altitude>0</altitude>
+					<range>91853.93957371087</range>
+					<tilt>0</tilt>
+					<heading>-0.03726327127467013</heading>
+				</LookAt>
+				<styleUrl>#sn_noicon00</styleUrl>
+				<Point>
+					<coordinates>-67.22931750512934,42.0332644331609,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Georges Bank - Southeast</name>
+				<description><![CDATA[Georges Banks southeast part
+  <ul><li>Moderate energy, sand, and shell rubble
+        <li>High abundance of starfish, moderate scallop density
+  </ul>]]></description>
+				<LookAt>
+					<longitude>-66.87557654932478</longitude>
+					<latitude>41.24637852715076</latitude>
+					<altitude>0</altitude>
+					<range>91853.93957371228</range>
+					<tilt>0</tilt>
+					<heading>0.1983067794147782</heading>
+				</LookAt>
+				<styleUrl>#sn_noicon00</styleUrl>
+				<Point>
+					<coordinates>-66.87557654932478,41.24637852715076,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Western Great South Channel</name>
+				<description><![CDATA[Western Great South Channel is located southeast of
+Nantucket
+  <ul><li>A high energy
+        <li>Extreme scouring of bottom
+        <li> acronym: WGSC
+  </ul>]]></description>
+				<LookAt>
+					<longitude>-69.35752661932545</longitude>
+					<latitude>41.03059365718745</latitude>
+					<altitude>0</altitude>
+					<range>52106.62332556146</range>
+					<tilt>1.533352368123712e-12</tilt>
+					<heading>1.694700574214201</heading>
+				</LookAt>
+				<styleUrl>#sn_noicon00</styleUrl>
+				<Point>
+					<coordinates>-69.35752661932547,41.03059365718745,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Closed Area II</name>
+				<LookAt>
+					<longitude>-70.21311478124916</longitude>
+					<latitude>39.84705982339034</latitude>
+					<altitude>0</altitude>
+					<range>951101.5977781845</range>
+					<tilt>0</tilt>
+					<heading>1.585401296977999e-14</heading>
+					<altitudeMode>relativeToGround</altitudeMode>
+				</LookAt>
+				<styleUrl>#sn_noicon00</styleUrl>
+				<Point>
+					<coordinates>-67.13386042177814,41.78777405374149,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Western Gulf of Maine Closed Area</name>
+				<LookAt>
+					<longitude>-70.21311575684217</longitude>
+					<latitude>39.8074300632512</latitude>
+					<altitude>0</altitude>
+					<range>951101.5977781801</range>
+					<tilt>0</tilt>
+					<heading>3.020792289814181e-05</heading>
+					<altitudeMode>relativeToGround</altitudeMode>
+				</LookAt>
+				<styleUrl>#sn_noicon00</styleUrl>
+				<Point>
+					<coordinates>-70.06926638333522,43.04304039499537,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Closed Area I</name>
+				<LookAt>
+					<longitude>-70.21311478124916</longitude>
+					<latitude>39.84705982339034</latitude>
+					<altitude>0</altitude>
+					<range>951101.5977781845</range>
+					<tilt>0</tilt>
+					<heading>1.585401296977999e-14</heading>
+					<altitudeMode>relativeToGround</altitudeMode>
+				</LookAt>
+				<styleUrl>#sn_noicon00</styleUrl>
+				<Point>
+					<coordinates>-68.82025960157176,41.18033583093479,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Hudson Canyon</name>
+				<LookAt>
+					<longitude>-70.21311575684213</longitude>
+					<latitude>39.80743006325122</latitude>
+					<altitude>0</altitude>
+					<range>951101.5977781872</range>
+					<tilt>2.164677289965872e-14</tilt>
+					<heading>3.020792290983676e-05</heading>
+					<altitudeMode>relativeToGround</altitudeMode>
+				</LookAt>
+				<styleUrl>#sn_noicon00</styleUrl>
+				<Point>
+					<coordinates>-73.23109099220451,39.2299280416044,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Nantucket Lightship</name>
+				<LookAt>
+					<longitude>-70.21311478124919</longitude>
+					<latitude>39.84705982339035</latitude>
+					<altitude>0</altitude>
+					<range>951101.5977781817</range>
+					<tilt>2.977263389196249e-15</tilt>
+					<heading>1.171135772336233e-14</heading>
+					<altitudeMode>relativeToGround</altitudeMode>
+				</LookAt>
+				<styleUrl>#sn_noicon00</styleUrl>
+				<Point>
+					<coordinates>-69.69853459153065,40.46047495507962,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>DelMarVa</name>
+				<LookAt>
+					<longitude>-70.21311575684213</longitude>
+					<latitude>39.80743006325122</latitude>
+					<altitude>0</altitude>
+					<range>951101.5977781872</range>
+					<tilt>2.164677289965872e-14</tilt>
+					<heading>3.020792290983676e-05</heading>
+					<altitudeMode>relativeToGround</altitudeMode>
+				</LookAt>
+				<styleUrl>#sn_noicon10</styleUrl>
+				<Point>
+					<coordinates>-74.42715882655911,37.57413723738252,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Boundaries</name>
+			<open>1</open>
+			<Placemark>
+				<name>WGSC</name>
+				<styleUrl>#msn_ylw-pushpin0</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+-69.38539272850214,40.83842338787122,1 -68.99922348479693,40.83346416549455,1 -68.86045435329686,40.88050559586593,1 -69.38316325291687,41.50061811475691,1 -69.78181377886882,41.51665461873332,1 -69.81415842169667,41.35197709578439,1 -69.38539272850214,40.83842338787122,1 </coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Folder>
+				<name>Hudson Canyon</name>
+				<Placemark>
+					<name>Hudson Canyon</name>
+					<styleUrl>#msn_ylw-pushpin</styleUrl>
+					<Polygon>
+						<extrude>1</extrude>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+-72.50255457234709,39.5000831089228,0 -73.4991153414451,38.4978385199603,0 -73.83214324402969,38.6688384896256,0 -73.1628224594233,39.5000831089228,0 -72.50255457234709,39.5000831089228,0 </coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Western_Gulf_of_Maine_Closure</name>
+				<Placemark>
+					<name>Western Gulf of Maine Closure Area</name>
+					<snippet></snippet>
+					<Snippet maxLines="0"></Snippet>
+					<styleUrl>#msn_ylw-pushpin</styleUrl>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+-70.2563674374,42.2499537838,0 -70.2563666146,43.253677261,0 -69.9109952382,43.253677261,0 -69.9110029765,42.2500499584,0 -70.2563674374,42.2499537838,0 </coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Del_Mar_Va</name>
+				<Style id="shp2kml_copy0">
+					<IconStyle>
+						<color>ffffffff</color>
+						<scale>1</scale>
+						<heading>0</heading>
+						<Icon>
+							<href>http://www.zonums.com/library/symbols/ge/shp2kml.png</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0</scale>
+					</LabelStyle>
+					<BalloonStyle>
+						<text>$[description]</text>
+						<textColor>ff000000</textColor>
+						<color>ffffffff</color>
+						<displayMode>default</displayMode>
+					</BalloonStyle>
+					<LineStyle>
+						<color>ffff0000</color>
+						<width>5</width>
+					</LineStyle>
+					<PolyStyle>
+						<color>ffffffff</color>
+						<fill>0</fill>
+					</PolyStyle>
+				</Style>
+				<Folder>
+					<name>Features</name>
+					<snippet>Legend: Single Symbol</snippet>
+					<Snippet maxLines="2">Legend: Single Symbol</Snippet>
+					<Placemark>
+						<name>0</name>
+						<snippet></snippet>
+						<Snippet maxLines="0"></Snippet>
+						<styleUrl>#msn_ylw-pushpin</styleUrl>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+-74.8333333312,37.25,0 -74.8333333285,38.1666666707,0 -74,38.16666667,0 -73.99999999960001,37.2500000013,0 -74.8333333312,37.25,0 </coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</Placemark>
+				</Folder>
+			</Folder>
+			<Folder>
+				<name>NLS</name>
+				<Placemark>
+					<name>NLS</name>
+					<styleUrl>#msn_ylw-pushpin</styleUrl>
+					<Polygon>
+						<extrude>1</extrude>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+-69.00000000341841,40.8333320624131,0 -68.99999999999321,40.3333320617767,0 -70.3333358776848,40.3333320616902,0 -70.33333587649859,40.833332061809,0 -69.00000000341841,40.8333320624131,0 </coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>CLAI</name>
+				<Placemark>
+					<name>CLAI</name>
+					<styleUrl>#msn_ylw-pushpin</styleUrl>
+					<Polygon>
+						<extrude>1</extrude>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+-69.3832276356498,41.50011200197331,0 -68.5,41.5,0 -68.5,40.75,0 -68.75,40.75,0 -69.3832276356498,41.50011200197331,0 </coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>ET</name>
+				<Folder>
+					<name>Features</name>
+					<snippet>Legend: Single Symbol</snippet>
+					<Snippet maxLines="2">Legend: Single Symbol</Snippet>
+					<Placemark>
+						<name>0</name>
+						<snippet></snippet>
+						<Snippet maxLines="0"></Snippet>
+						<styleUrl>#msn_ylw-pushpin</styleUrl>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+-74.33333142870001,38.1666674237,0 -74.3333333003,38.8333327294,0 -73.4999989221,38.8333347092,0 -73.5000008855,38.1666669699,0 -74.33333142870001,38.1666674237,0 </coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</Placemark>
+				</Folder>
+			</Folder>
+			<Folder>
+				<name>CLAII</name>
+				<Placemark>
+					<name>CLAII</name>
+					<styleUrl>#msn_ylw-pushpin</styleUrl>
+					<Polygon>
+						<extrude>1</extrude>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+-67.33000000000001,41,0 -67.3298099966358,42.3634695610157,0 -66.4221291556548,41.3162142600656,0 -66.59999999999999,41,0 -67.33000000000001,41,0 </coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>SBNMS</name>
+				<Style id="shp2kml_copy0">
+					<IconStyle>
+						<color>ffffffff</color>
+						<scale>1</scale>
+						<heading>0</heading>
+						<Icon>
+							<href>http://www.zonums.com/library/symbols/ge/shp2kml.png</href>
+						</Icon>
+					</IconStyle>
+					<LabelStyle>
+						<scale>0</scale>
+					</LabelStyle>
+					<BalloonStyle>
+						<text>$[description]</text>
+						<textColor>ff000000</textColor>
+						<color>ffffffff</color>
+						<displayMode>default</displayMode>
+					</BalloonStyle>
+					<LineStyle>
+						<color>ffffff00</color>
+						<width>3</width>
+					</LineStyle>
+					<PolyStyle>
+						<color>ffffffff</color>
+						<fill>0</fill>
+					</PolyStyle>
+				</Style>
+				<Folder>
+					<name>Features</name>
+					<snippet>Legend: Single Symbol</snippet>
+					<Snippet maxLines="2">Legend: Single Symbol</Snippet>
+					<Placemark>
+						<name>Stellwagen Bank National Marine Sanctuary</name>
+						<snippet></snippet>
+						<Snippet maxLines="0"></Snippet>
+						<styleUrl>#msn_ylw-pushpin</styleUrl>
+						<MultiGeometry>
+							<Polygon>
+								<outerBoundaryIs>
+									<LinearRing>
+										<coordinates>
+-70.21714516679999,42.7665706175,0 -70.2167268637,42.76680879140001,0 -70.21669801989999,42.7667511037,0 -70.21714516679999,42.7665706175,0 </coordinates>
+									</LinearRing>
+								</outerBoundaryIs>
+							</Polygon>
+							<Polygon>
+								<outerBoundaryIs>
+									<LinearRing>
+										<coordinates>
+-70.27853055999999,42.11515833,0 -70.4714855782,42.130545654,0 -70.5408911482,42.3564582395,0 -70.6006811334,42.5507881732,0 -70.5959953835,42.5540876235,0 -70.5928297562,42.5572748308,0 -70.58627559849999,42.5647711222,0 -70.5815763911,42.5686103348,0 -70.5748985701,42.5751912884,0 -70.5735382732,42.57765896560001,0 -70.5586986709,42.5811318263,0 -70.5438590686,42.5878942062,0 -70.5353262973,42.59355941520001,0 -70.5211050118,42.6050709836,0 -70.51638333,42.60641111,0 -70.50639167,42.620975,0 -70.50183333,42.63302222,0 -70.50181667,42.64235,0 -70.50313611,42.65113333000001,0 -70.21714516679999,42.7665706175,0 -70.03559444000001,42.09319722,0 -70.054875,42.10506944,0 -70.0676,42.10820278,0 -70.08711389,42.11741667,0 -70.10659722,42.1205,0 -70.12441389000001,42.12665278,0 -70.140575,42.128425,0 -70.15549444,42.13331667,0 -70.17344444,42.13470833,0 -70.196575,42.13199722,0 -70.21759722,42.13328889,0 -70.23941944000001,42.12959722,0 -70.25637500000001,42.12424722,0 -70.27853055999999,42.11515833,0 </coordinates>
+									</LinearRing>
+								</outerBoundaryIs>
+							</Polygon>
+						</MultiGeometry>
+					</Placemark>
+				</Folder>
+			</Folder>
+		</Folder>
+	</Folder>
+</Document>
+</kml>

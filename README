@@ -1,0 +1,24 @@
+AUV tools by Ian Katz (ijk5@mit.edu)
+
+A web interface designed to sit on the topside and do the following:
+ 1. show locations of vehicle and chase boat
+ 2. plan missions (http://www.youtube.com/watch?v=vK0wWH9Ijnk)
+
+This code is currently lacking excessive comments, and the KML generation needs to be
+revamped.  You will need to write your own mission-exporting code.
+
+Built and tested on Ubuntu Linux; all documentation will assume that OS.
+
+In order to install AUV-PlanIt: 
+ 0. you will need to apt-get install the following (and maybe more):
+      php-mdb2-driver-mysql (pulls in php-pear, php-mdb2, and php5-mysql)
+      apache2
+ 1. set your web root (the htdocs directory) in the sites-available file
+ 2. remove the default symlink in /etc/apache/sites-enabled and put the AUV PlanIT one there:
+        cp _etc_apache2_sites-available_auv-planit /etc/apache2/sites-available/auv-planit
+        cd /etc/apache2/sites-enabled
+        rm 000-default
+        ln -s ../sites-available/auv-planit ./000-auv-planit
+ 3. create a MySQL database called ap using the schema_planit.sql file
+ 4. populate the ap database using the somedata.sql file
+ 5. modify inc/dbinit.php to give the location and credentials of your mysql db

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<overlay id="mybic_overlay"
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+    <script src="JSON.js"/>
+    <script src="mybic_display.js"/>
+    <script src="mybic.js"/>
+    <script type="application/x-javascript">
+        // starts the mybic listener
+        mybic_start_listener();
+    </script>
+</overlay>
+

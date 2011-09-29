@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>Hello Ajax World!</title>
+
+<script type="text/javascript" src="mybic.js"></script>
+<script>
+	var ajaxObj;
+	
+	function startAjax() {
+		ajaxObj = new XMLHTTP("mybic_server.php");
+
+		// lets turn on debugging so we can see what we're sending and receiving
+		ajaxObj.debug=1;
+
+		ajaxObj.call("action=helloworld", respHelloWorld);
+	}
+
+	
+	function respHelloWorld(resp) {
+		
+		document.getElementById('content').innerHTML = resp;
+	}
+</script>
+</head>
+<body onload="startAjax();">
+<div id="content"></div>
+</body>
+</html>
+
