@@ -10,9 +10,7 @@ revamped.  You will need to write your own mission-exporting code.
 Built and tested on Ubuntu Linux; all documentation will assume that OS.
 
 In order to install AUV-PlanIt: 
- 0. you will need to apt-get install the following (and maybe more):
-      php-mdb2-driver-mysql (pulls in php-pear, php-mdb2, and php5-mysql)
-      apache2
+ 0. you will need to install my (small) PHP library: https://github.com/ifreecarve/AUV-phplib
  1. set your web root (the htdocs directory) in the sites-available file
  2. remove the default symlink in /etc/apache/sites-enabled and put the AUV PlanIT one there:
         cp _etc_apache2_sites-available_auv-planit /etc/apache2/sites-available/auv-planit
