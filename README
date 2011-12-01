@@ -12,11 +12,14 @@ Built and tested on Ubuntu Linux; all documentation will assume that OS.
 In order to install AUV-PlanIt: 
  0. you will need to install my (small) PHP library: https://github.com/ifreecarve/AUV-phplib
  1. set your web root (the htdocs directory) in the sites-available file
- 2. remove the default symlink in /etc/apache/sites-enabled and put the AUV PlanIT one there:
+ 2. remove the default symlink in /etc/apache/sites-enabled and put the AUV PlanIT one there.  shell commands:
         cp _etc_apache2_sites-available_auv-planit /etc/apache2/sites-available/auv-planit
         cd /etc/apache2/sites-enabled
         rm 000-default
         ln -s ../sites-available/auv-planit ./000-auv-planit
- 3. create a MySQL database called ap using the schema_planit.sql file
- 4. populate the ap database using the somedata.sql file
+ 3. create a MySQL database called ap using the schema_planit.sql file.  shell commands:
+        echo "create database ap;" | mysql -u YOUR_USERNAME -pYOUR_PASSWORD
+        mysql  -u YOUR_USERNAME -pYOUR_PASSWORD ap < schema_planit.sql
+ 4. populate the ap database using the somedata.sql file.  shell commands:
+        mysql  -u YOUR_USERNAME -pYOUR_PASSWORD ap < somedata.sql
  5. modify inc/dbinit.php to give the location and credentials of your mysql db
