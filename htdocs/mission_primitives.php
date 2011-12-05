@@ -23,7 +23,7 @@
     $onload = "";
 
     $ajaxm = new mission_primitive();
-    echo $ajaxm->header_javascript("missionprimitive", 'mission_primitiveform', false);
+    echo $ajaxm->header_javascript("missionprimitive", 'mission_primitiveform', $_CONFIG["DEBUG"]);
     $onload .= $ajaxm->onload_javascript(false);
 
 ?>

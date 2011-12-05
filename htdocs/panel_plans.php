@@ -21,7 +21,7 @@
     $onload = "";
 
     $ajaxm = new plan();
-    echo $ajaxm->header_javascript("plan", 'planform', false);
+    echo $ajaxm->header_javascript("plan", 'planform', $_CONFIG["DEBUG"]);
     $onload .= $ajaxm->onload_javascript(false);
 
 ?>

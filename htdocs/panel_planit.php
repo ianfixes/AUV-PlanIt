@@ -70,7 +70,7 @@
     $onload = "";
 
     $ajaxp = new plan_param();
-    echo $ajaxp->header_javascript("plan_param", 'plan_paramform', false);
+    echo $ajaxp->header_javascript("plan_param", 'plan_paramform', $_CONFIG["DEBUG"]);
     $onload .= $ajaxp->onload_javascript(false);
 
 ?>

@@ -30,6 +30,6 @@ $dsn = $_CONFIG["DSN"];
 $dbo = new cDbObjects($dsn);
 $db = cDb::singleton($dsn);
 
-
+setcookie("_cookie_detection", "obviously working");
 
 ?>

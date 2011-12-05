@@ -4,6 +4,14 @@ require_once("mybic_json.php");
 require_once("utils/cArrayObject.php");
 require_once("utils/cCleanArray.php");
 
+//cookies should have been set by the time an AJAX request is called...
+// even the very first time.
+if (!isset($_COOKIE["_cookie_detection"]))
+{
+    echo '<span style="color:red; font-size:smaller; font-weight:bold;">Warning: cookies are required but don\'t seem to be enabled</span>';
+
+}
+
 //handle AJAX requests (and appropriate setup) in a hopefully modular way
 abstract class cRequest
 {

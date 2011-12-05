@@ -15,15 +15,15 @@
     $onload = "";
 
     $ajaxp = new profile();
-    echo $ajaxp->header_javascript("profile", 'profileform', false);
+    echo $ajaxp->header_javascript("profile", 'profileform', $_CONFIG["DEBUG"]);
     $onload .= $ajaxp->onload_javascript(false);
     
     $ajaxe = new entity();
-    echo $ajaxe->header_javascript("entity", 'entityform', false);
+    echo $ajaxe->header_javascript("entity", 'entityform', $_CONFIG["DEBUG"]);
     $onload .= $ajaxe->onload_javascript(false);
     
     $ajaxm = new mission();
-    echo $ajaxm->header_javascript("mission", 'missionform', false);
+    echo $ajaxm->header_javascript("mission", 'missionform', $_CONFIG["DEBUG"]);
     $onload .= $ajaxm->onload_javascript(false);
 
 ?>

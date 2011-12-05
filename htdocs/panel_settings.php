@@ -47,7 +47,7 @@
     $onload = "";
 
     $ajax = new profile_settings();
-    echo $ajax->header_javascript("profilesetting", 'profile_settingsform', false);
+    echo $ajax->header_javascript("profilesetting", 'profile_settingsform', $_CONFIG["DEBUG"]);
     $onload .= $ajax->onload_javascript(false);
 
 ?>
