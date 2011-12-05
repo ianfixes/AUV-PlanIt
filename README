@@ -22,4 +22,4 @@ In order to install AUV-PlanIt:
         mysql  -u YOUR_USERNAME -pYOUR_PASSWORD ap < schema_planit.sql
  4. populate the ap database using the somedata.sql file.  shell commands:
         mysql  -u YOUR_USERNAME -pYOUR_PASSWORD ap < somedata.sql
- 5. modify inc/dbinit.php to give the location and credentials of your mysql db
+ 5. copy htdocs/_CONFIG-example.php to htdocs/_CONFIG.php and modify it to give the location and credentials of your mysql db (and other settings)
